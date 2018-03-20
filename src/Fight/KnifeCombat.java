@@ -3,13 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Comportement;
+package Fight;
 
 /**
  *
  * @author sire_marcos
  */
-public interface BattleSpirit
+public class KnifeCombat implements BattleSpirit
 {
-    public void combat();
+
+    @Override
+    public void combat()
+    {
+        System.out.println("I battle with knife.");
+    }
+    
 }

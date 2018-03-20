@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Comportement;
+package Fight;
 
 /**
  *
  * @author sire_marcos
  */
-public class Pacifist implements BattleSpirit
+public class PistolCombat implements BattleSpirit
 {
 
     @Override
     public void combat()
     {
-        System.out.println("I don't battle.");
+        System.out.println("I battle with pistols.");
     }
     
 }

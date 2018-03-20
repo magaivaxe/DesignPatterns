@@ -5,6 +5,7 @@
  */
 package Characters;
 
+import Fight.*;
 import Comportement.*;
 
 /**
