@@ -21,7 +21,7 @@ public class Main
         //The characters
         Character [] chars = {new Warrior(), new Civil(), new Doctor()};
         
-        for (int i = 0; i < 0; i++)
+        for(int i = 0; i < chars.length; i++)
         {
             System.out.println("\nInstance of " + 
                     chars[i].getClass().getName());
