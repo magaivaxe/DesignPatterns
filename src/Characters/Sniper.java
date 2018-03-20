@@ -9,17 +9,17 @@ import Comportement.*;
 
 /**
  *
- * @author sire_marcos
+ * @author eleves
  */
-public class Warrior extends Character
+public class Sniper extends Character
 {
-    //Default constructor
-    public Warrior()
+    //Default Constructor
+    public Sniper()
     {
-        this.battleSpirit = new PistolCombat();
+        this.battleSpirit = new SniperCombat();
     }
-    //Parametric constructor
-    public Warrior(BattleSpirit spirit, Health health, Movement mov)
+    //Paracmetric Constructor
+    public Sniper(BattleSpirit spirit, Health health, Movement mov)
     {
         super(spirit, health, mov);
     }

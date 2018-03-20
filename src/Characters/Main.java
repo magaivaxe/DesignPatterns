@@ -19,7 +19,8 @@ public class Main
     public static void main(String[] args)
     {
         //The characters
-        Character [] chars = {new Warrior(), new Civil(), new Doctor()};
+        Character [] chars = {new Warrior(), new Sniper(), new Civil(),
+                              new Doctor(), new Surgeon()};
         
         for(int i = 0; i < chars.length; i++)
         {

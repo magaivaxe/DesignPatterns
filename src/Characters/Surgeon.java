@@ -9,17 +9,17 @@ import Comportement.*;
 
 /**
  *
- * @author sire_marcos
+ * @author eleves
  */
-public class Warrior extends Character
+public class Surgeon extends Character
 {
-    //Default constructor
-    public Warrior()
+    //Default Constructor
+    public Surgeon()
     {
-        this.battleSpirit = new PistolCombat();
+        this.battleSpirit = new ShotgunCombat();
     }
-    //Parametric constructor
-    public Warrior(BattleSpirit spirit, Health health, Movement mov)
+    //Parametric Constructor
+    public Surgeon(BattleSpirit spirit, Health health, Movement mov)
     {
         super(spirit, health, mov);
     }
