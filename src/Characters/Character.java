@@ -30,7 +30,7 @@ public abstract class Character
     
     /**
      * This is the polymorphism. To allocate an object type movement that it is
-     * a interface that implements in 2 classes that they use the function move.
+     * a interface that implements in 2 classes that they can use the function move.
      * This function will be used differently by the run and walk class
      */
     public void toMove()
@@ -41,5 +41,22 @@ public abstract class Character
     {
         battleSpirit.combat();
     }
+    public void toHealth()
+    {
+        health.cure();
+    }
     
+    //Setters
+    public void setBattleSpirit(BattleSpirit battleSpirit)
+    {
+        this.battleSpirit = battleSpirit;
+    }
+    public void setHealth(Health health)
+    {
+        this.health = health;
+    }
+    public void setMovement(Movement movement)
+    {
+        this.movement = movement;
+    }
 }
