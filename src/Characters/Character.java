@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 package Characters;
-import Fight.*;
+import Comportement.BattleSpirit;
+import Comportement.Pacifist;
 import Comportement.*;
-
 
 /**
  *
@@ -15,9 +15,9 @@ import Comportement.*;
 public abstract class Character
 {
     //Instances
-    protected BattleSpirit battleSpirit = new Pacifist();
-    protected Health health = new NoHealth();
-    protected Movement movement = new Walk();
+    public BattleSpirit battleSpirit = new Pacifist();
+    public Health health = new NoHealth();
+    public Movement movement = new Walk();
     
     //Default constructor without values
     public Character(){}

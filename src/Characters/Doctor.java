@@ -5,7 +5,7 @@
  */
 package Characters;
 
-import Fight.*;
+import Comportement.BattleSpirit;
 import Comportement.*;
 
 /**

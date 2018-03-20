@@ -3,13 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Fight;
+package Comportement;
 
 /**
  *
- * @author sire_marcos
+ * @author eleves
  */
-public interface BattleSpirit
+public class ShotgunCombat implements BattleSpirit
 {
-    public void combat();
+
+    @Override
+    public void combat()
+    {
+        System.out.println("I use the shotgun.");
+    }
+    
 }

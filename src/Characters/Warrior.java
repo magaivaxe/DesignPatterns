@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 package Characters;
-import Fight.*;
+import Comportement.PistolCombat;
+import Comportement.BattleSpirit;
 import Comportement.*;
 
 /**

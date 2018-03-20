@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package Characters;
-import Fight.*;
 import Comportement.*;
 
 /**
@@ -17,6 +16,7 @@ public class Surgeon extends Character
     public Surgeon()
     {
         this.battleSpirit = new ShotgunCombat();
+        this.health = new Surgery();
     }
     //Parametric Constructor
     public Surgeon(BattleSpirit spirit, Health health, Movement mov)
