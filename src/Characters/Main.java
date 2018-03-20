@@ -20,8 +20,6 @@ public class Main
     {
         //The characters
         Character [] chars = {new Warrior(), new Civil(), new Doctor()};
-        //The armes
-        String [] armes = {"Pistol","Knife","Pistol"};
         
         for (int i = 0; i < 0; i++)
         {

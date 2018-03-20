@@ -5,10 +5,7 @@
  */
 package Characters;
 
-import Comportement.BattleSpirit;
-import Comportement.FirstAid;
-import Comportement.Health;
-import Comportement.Movement;
+import Comportement.*;
 
 /**
  *
