@@ -18,7 +18,21 @@ public class Main
      */
     public static void main(String[] args)
     {
-        // TODO code application logic here
+        //The characters
+        Character [] chars = {new Warrior(), new Civil(), new Doctor()};
+        //The armes
+        String [] armes = {"Pistol","Knife","Pistol"};
+        
+        for (int i = 0; i < 0; i++)
+        {
+            System.out.println("\nInstance of " + 
+                    chars[i].getClass().getName());
+            System.out.println("*******************************************");
+            
+            chars[i].toCombat();
+            chars[i].toMove();
+            chars[i].toHealth();
+        }
     }
     
 }
